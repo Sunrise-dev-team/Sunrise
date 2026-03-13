@@ -7,3 +7,4 @@ trash_bin/
 
 # dev branch only!
 *.res
+*.reg
