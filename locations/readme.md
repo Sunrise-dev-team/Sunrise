@@ -1,0 +1,1 @@
+Размещайте здесь .zvmt (ZoneView Map Template) файлы, что бы не засорять Maps.
