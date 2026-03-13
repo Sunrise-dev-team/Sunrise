@@ -4,3 +4,6 @@ trash_bin/
 *.bak
 *.tmp
 *.report
+
+# playable stable branch only
+*_res/
