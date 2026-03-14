@@ -1,6 +1,7 @@
 
 mNDA/
 trash_bin/
+*.sav
 *.bak
 *.tmp
 *.report
