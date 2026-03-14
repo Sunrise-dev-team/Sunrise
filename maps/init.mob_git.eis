@@ -1,0 +1,43 @@
+GlobalVars (
+    NULL : object
+    ,VSS#i#val : object
+    ,i : object
+    ,Heroes : group
+  )
+
+DeclareScript #OnBriefingComplete (  nPlayer : float,  szComplete : string)
+
+Script #OnBriefingComplete
+(
+  if()
+  then(
+    KillScript() 
+    //OpenNextBriefings(GetObjectById("1001324948"))
+  )
+)
+
+DeclareScript Camera#Fixed()
+Script Camera#Fixed
+(
+  if(
+    Not(IsCameraPlaying())
+  )
+  then(
+    KillScript()
+    PlayCamera("chargen.cam")
+    Camera#Fixed()
+  )
+)
+
+WorldScript
+(
+    Sleep(2)
+    //Camera#Fixed()
+    //GSSetVar(0,"b.chargen.chargen_enter",1)
+    //GSSetVar(0,"b.genc.chargen_1",1)
+    Sleep(2)
+    //SendStringEvent(0,"briefing chargen_enter")
+    LeaveToZone(0,"chargen",0)
+    ConsoleString("all OK!")
+  )
+  //Script EOS

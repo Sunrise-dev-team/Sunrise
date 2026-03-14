@@ -106,30 +106,30 @@ gz1g_gz2g 1
 ## Zone GZ1G RUINS
 #zone gz1g gipat game
 #res
-zone1 zone1
+init init
 #maps
-8 6
+1 1
 zone1map zone1quest
-#figure
-ingm101
-#position
--2.370 0.120 0.805
+## #figure
+## ingm101
+## #position
+## -2.370 0.120 0.805
 
 ## one-way entrance in the beginning of the game
 #exit 1
 none 0
 #deploy
-49 133 59 143
-#view
-90
-
-## to base
-#exit 2
-bz1g 1
-#deploy
-184 101 190 108
-#remove
-181 108 193 120
+3 3 5 5
+## #view
+## 90
+## 
+## ## to base
+## #exit 2
+## bz1g 1
+## #deploy
+## 184 101 190 108
+## #remove
+## 181 108 193 120
 
 ## ## To Witch
 ## #exit 3
@@ -151,6 +151,24 @@ bz1g 1
 ## #passtime
 ## 13
 
+## Zone GZ1G RUINS
+#zone chargen gipat brief
+#res
+chargen chargen
+#maps
+1 1
+zone1map zone1quest
+#cage
+## #figure
+## ingm101
+## #position
+## -2.370 0.120 0.805
+
+## one-way entrance in the beginning of the game
+#exit 1
+none 0
+#deploy
+3 3 5 5
 ################################################
 
 

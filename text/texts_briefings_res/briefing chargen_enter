@@ -1,0 +1,6 @@
+chargen_enter
+#show Hero 1
+#show genc 2
+#CAMERA 11
+#phrase genc  1
+chargen_enter phrase genc 1

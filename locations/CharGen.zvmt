@@ -1,0 +1,4 @@
+[Template]
+Terrain=%SUNRISE%\Maps\chargen.mpr
+MainMob=%SUNRISE%\Maps\chargen.mob
+SecondaryMob=

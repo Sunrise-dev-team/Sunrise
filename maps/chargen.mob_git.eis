@@ -1,0 +1,70 @@
+GlobalVars (
+    NULL : object
+    ,VSS#i#val : object
+    ,i : object
+    ,Heroes : group
+  )
+
+DeclareScript #OnBriefingComplete (  nPlayer : float,  szComplete : string)
+
+Script #OnBriefingComplete
+(
+  if(IsEqualString(szComplete,"b.genc.chargen_1") )
+  then(
+    CreateParty(0,"grp")
+    AddUnitToParty(0,"grp::Hero","Human Hero2")
+    SetCurrentParty(0,"grp")
+    RedeployParty(0)
+    //PlayCamera("reset.cam")
+    LeaveToZone(0,"gz3g",0)
+    )
+  if()
+  then(
+    KillScript() 
+    //OpenNextBriefings(GetObjectByName("genc"))
+  )
+)
+
+DeclareScript Camera#Fixed()
+Script Camera#Fixed
+(
+  if(
+  //Not(IsCameraPlaying())
+  )
+  then(
+  //KillScript()
+  //Sleep(15)
+    PlayCamera("chargen.cam")
+  )
+  //if()
+  //then(
+  //  KillScript()
+  //  Sleep(5)
+  //  Camera#Fixed()
+  //)
+)
+
+WorldScript
+(
+    Sleep(2)
+    //SetCamera("chargen.cam")
+    
+    setcp(getobjectbyname("hero"),14.5,23,0)
+    Sleep(1)
+    
+    setcp(getobjectbyname("genc"),17,19,0)
+    Sleep(1)
+    rotateto(getobjectbyname("genc"),14,22)
+    
+    GSSetVar(0,"b.genc.chargen_enter",1)
+    GSSetVar(0,"b.genc.chargen_1",1)
+    GSSetVar(0,"b.genc.chargen_2",1)
+    GSSetVar(0,"b.genc.chargen_3",1)
+    Sleep(2)
+    
+    rotateto(getobjectbyname("hero"),18,16)
+    //SendStringEvent(0,"briefing chargen_enter")
+    Camera#Fixed()
+    ConsoleString("all OK!")
+  )
+  //Script EOS

@@ -252,7 +252,11 @@ def read_node(info, file):
         else:
             info.append([node_name, read_float(file)])
     elif node_type == "String":
-        info.append([node_name, read_str(file, node_len - 8)])
+        tmp = read_str(file, node_len - 8)
+        if isSeparateScript == True and node_name == "SS_TEXT_OLD":
+            export_script = tmp
+        else:
+            info.append([node_name, tmp])
     elif node_type == "Quaternion" or node_type == "Rectangle":
         if node_len != 24:
             file.read(node_len - 8)
@@ -287,9 +291,11 @@ def read_node(info, file):
             #file.read(4096)
             info.append([node_name, tuple(read_int(file, 1024))])
     elif node_type == "StringEncrypted":
-        export_script = decrypt_str(file, node_len - 12)
-        if isSeparateScript == False or node_name != "SS_TEXT":
-            info.append([node_name, export_script])
+        tmp = decrypt_str(file, node_len - 12)
+        if isSeparateScript and node_name == "SS_TEXT":
+            export_script = tmp
+        else:
+            info.append([node_name, tmp])
     elif node_type == "LeverStats":
         if node_len != 20:
             file.read(node_len - 8)
