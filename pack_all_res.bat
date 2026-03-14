@@ -6,6 +6,7 @@ echo -- Sunrise Builder
 ::echo -- ----------------------
 echo -- Created by Atm(c)2023
 echo -- -Tools by Demoth(c)2014-2016
+echo -- -Tools by Aspadm(c)2019
 echo -- -Tools by Nival(c)1998-2001
 echo --------------------------------------------
 start /b "" "%CD%\tools\eipacker\ini2reg.exe" %CD%\config.ini
@@ -25,7 +26,8 @@ for /D %%i in (%CD%\*) do (
         echo.
     )
 )
-pause
-::echo %%B
 ::pause
+::echo %%B
+call "%CD%\git_story_maps.bat"
+pause
 start "" "%CD%\..\..\EIStarter.exe"
