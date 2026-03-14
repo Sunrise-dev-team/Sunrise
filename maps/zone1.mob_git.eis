@@ -1,0 +1,2142 @@
+GlobalVars (
+  NULL : object,
+  VSS#i#val : object,
+  i : object,
+  Ogre : object,
+  GoblV1 : object,
+  Human_NPC_Male-699 : object,
+  Human_NPC_Female-702 : object,
+  GoblV2 : object,
+  LoneWolf : object,
+  DgunDragon : object,
+  Human_NPC_Male-1884 : object,
+  VGate : object,
+  Ogre1 : object,
+  Ogre2 : object,
+  BGoblin : object,
+  BGoblin2 : object,
+  VillageFC : object,
+  DragonKins : group,
+  Banshees : group,
+  Heroes : group,
+  Peasans : group,
+  Cows : group,
+  Bgobl : group,
+  Boars : group 
+)
+
+DeclareScript VCheck#0#1 (  this : object )
+DeclareScript VCheck#0#6 (  this : object )
+DeclareScript VTriger#0#8 (  this : object )
+DeclareScript VCheck#0#10 (  this : object )
+DeclareScript VTriger#0#11 (  this : object )
+DeclareScript VTriger#0#13 (  this : object )
+DeclareScript VTriger#0#15 (  this : object )
+DeclareScript VTriger#0#18 (  this : object )
+DeclareScript VTriger#0#20 (  this : object )
+DeclareScript VTriger#0#27 (  this : object )
+DeclareScript VTriger#0#30 (  this : object )
+DeclareScript VTriger#0#33 (  this : object )
+DeclareScript VTriger#0#36 (  this : object )
+DeclareScript VTriger#0#44 (  this : object )
+DeclareScript VCheck#0#52 (  this : object )
+DeclareScript VTriger#0#54 (  this : object )
+DeclareScript VTriger#0#56 (  this : object )
+DeclareScript VCheck#0#60 (  this : object )
+DeclareScript VTriger#0#62 (  this : object )
+DeclareScript VCheck#0#64 (  this : object )
+DeclareScript VTriger#0#66 (  this : object )
+DeclareScript VCheck#0#68 (  this : object )
+DeclareScript VTriger#0#70 (  this : object )
+DeclareScript VCheck#0#72 (  this : object )
+DeclareScript VTriger#0#73 (  this : object )
+DeclareScript VCheck#0#74 (  this : object )
+DeclareScript VTriger#0#75 (  this : object )
+DeclareScript VCheck#0#80 (  this : object )
+DeclareScript VTriger#0#81 (  this : object )
+DeclareScript VTriger#0#84 (  this : object )
+DeclareScript VCheck#0#86 (  this : object )
+DeclareScript VCheck#0#87 (  this : object )
+DeclareScript VTriger#0#88 (  this : object )
+DeclareScript VTriger#0#89 (  this : object )
+DeclareScript VCheck#0#94 (  this : object )
+DeclareScript VTriger#0#95 (  this : object )
+DeclareScript VTriger#0#98 (  this : object )
+DeclareScript VCheck#0#100 (  this : object )
+DeclareScript VTriger#0#102 (  this : object )
+DeclareScript VTriger#0#106 (  this : object )
+DeclareScript VCheck#0#107 (  this : object )
+DeclareScript VTriger#0#108 (  this : object )
+DeclareScript VCheck#0#112 (  this : object )
+DeclareScript VTriger#0#114 (  this : object )
+DeclareScript VCheck#0#116 (  this : object )
+DeclareScript VTriger#0#118 (  this : object )
+DeclareScript VCheck#0#120 (  this : object )
+DeclareScript VTriger#0#121 (  this : object )
+DeclareScript VCheck#0#122 (  this : object )
+DeclareScript VCheck#0#123 (  this : object )
+DeclareScript VTriger#0#124 (  this : object )
+DeclareScript VTriger#0#128 (  this : object )
+DeclareScript VTriger#0#131 (  this : object )
+DeclareScript VTriger#0#134 (  this : object )
+DeclareScript VCheck#0#137 (  this : object )
+DeclareScript VCheck#0#139 (  this : object )
+DeclareScript VTriger#0#164 (  this : object )
+DeclareScript VCheck#0#167 (  this : object )
+DeclareScript VTriger#0#169 (  this : object )
+DeclareScript VCheck#0#172 (  this : object )
+DeclareScript VTriger#0#175 (  this : object )
+DeclareScript VCheck#0#176 (  this : object )
+DeclareScript VTriger#0#180 (  this : object )
+DeclareScript VCheck#0#182 (  this : object )
+DeclareScript VTriger#0#183 (  this : object )
+DeclareScript VCheck#0#185 (  this : object )
+DeclareScript VCheck#0#186 (  this : object )
+DeclareScript VTriger#0#188 (  this : object )
+DeclareScript VTriger#0#190 (  this : object )
+DeclareScript VCheck#0#191 (  this : object )
+DeclareScript VTriger#0#192 (  this : object )
+DeclareScript VTriger#0#194 (  this : object )
+DeclareScript VCheck#0#197 (  this : object )
+DeclareScript VTriger#0#199 (  this : object )
+DeclareScript VCheck#0#201 (  this : object )
+DeclareScript VTriger#0#203 (  this : object )
+DeclareScript VTriger#0#205 (  this : object )
+DeclareScript VCheck#0#209 (  this : object )
+DeclareScript VTriger#0#210 (  this : object )
+DeclareScript VCheck#0#212 (  this : object )
+DeclareScript VTriger#0#214 (  this : object )
+DeclareScript VCheck#0#216 (  this : object )
+DeclareScript VTriger#0#219 (  this : object )
+DeclareScript VCheck#0#221 (  this : object )
+DeclareScript VCheck#0#222 (  this : object )
+DeclareScript VTriger#0#225 (  this : object )
+DeclareScript VCheck#0#228 (  this : object )
+DeclareScript VTriger#0#229 (  this : object )
+DeclareScript VCheck#0#230 (  this : object )
+DeclareScript VTriger#0#232 (  this : object )
+DeclareScript VCheck#0#234 (  this : object )
+DeclareScript VTriger#0#236 (  this : object )
+DeclareScript VCheck#0#239 (  this : object )
+DeclareScript VTriger#0#240 (  this : object )
+DeclareScript VCheck#0#242 (  this : object )
+DeclareScript VTriger#0#243 (  this : object )
+DeclareScript VCheck#0#245 (  this : object )
+DeclareScript VTriger#0#246 (  this : object )
+DeclareScript VCheck#0#248 (  this : object )
+DeclareScript VTriger#0#249 (  this : object )
+DeclareScript VCheck#0#251 (  this : object )
+DeclareScript VCheck#0#253 (  this : object )
+DeclareScript VTriger#0#254 (  this : object )
+DeclareScript VTriger#0#256 (  this : object )
+DeclareScript VCheck#0#258 (  this : object )
+DeclareScript VTriger#0#259 (  this : object )
+DeclareScript VTriger#0#261 (  this : object )
+DeclareScript VCheck#0#262 (  this : object )
+DeclareScript VCheck#0#265 (  this : object )
+DeclareScript VTriger#0#266 (  this : object )
+DeclareScript VCheck#0#268 (  this : object )
+DeclareScript VTriger#0#269 (  this : object )
+DeclareScript VCheck#0#271 (  this : object )
+DeclareScript VTriger#0#272 (  this : object )
+DeclareScript VCheck#0#274 (  this : object )
+DeclareScript VTriger#0#275 (  this : object )
+DeclareScript VCheck#0#277 (  this : object )
+DeclareScript VCheck#0#278 (  this : object )
+DeclareScript VTriger#0#279 (  this : object )
+DeclareScript VTriger#0#281 (  this : object )
+DeclareScript VCheck#0#283 (  this : object )
+DeclareScript VCheck#0#284 (  this : object )
+DeclareScript VTriger#0#285 (  this : object )
+DeclareScript VTriger#0#287 (  this : object )
+DeclareScript VCheck#0#289 (  this : object )
+DeclareScript VTriger#0#290 (  this : object )
+DeclareScript VCheck#0#292 (  this : object )
+DeclareScript VTriger#0#293 (  this : object )
+DeclareScript VCheck#0#296 (  this : object )
+DeclareScript VTriger#0#297 (  this : object )
+DeclareScript VCheck#0#299 (  this : object )
+DeclareScript VTriger#0#301 (  this : object )
+DeclareScript VCheck#0#303 (  this : object )
+DeclareScript VTriger#0#304 (  this : object )
+DeclareScript VCheck#0#306 (  this : object )
+DeclareScript VTriger#0#307 (  this : object )
+DeclareScript VCheck#0#309 (  this : object )
+DeclareScript VTriger#0#311 (  this : object )
+DeclareScript VTriger#0#317 (  this : object )
+DeclareScript VCheck#0#318 (  this : object )
+DeclareScript #OnBriefingComplete (  nPlayer : float,  szComplete : string )
+
+Script VCheck#0#1
+(
+  if
+  (
+    IsLess( DistanceUnitUnit( this, DgunDragon ) , 10 ) 
+    Not( Any( i, Peasans, IsEnemy( i, 0 )  )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#15( this ) 
+  )
+)
+
+Script VCheck#0#6
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( this, 185, 95 ) , 5 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#20( this ) 
+  )
+)
+
+Script VTriger#0#8
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    Walk( this ) 
+    SetCP( this, Add( 192, Random( 3 )  ) , Add( 125, Random( 3 )  ) , 0 ) 
+    Idle( this ) 
+    SetCP( this, Add( 192, Random( 3 )  ) , Add( 125, Random( 3 )  ) , 0 ) 
+    Idle( this ) 
+  )
+)
+
+Script VCheck#0#10
+(
+  if
+  (
+    IsLess( GSGetVar( 0, "q.gz1g.q0g" ) , 2 ) 
+    IsLess( DistanceUnitPoint( this, 187, 110 ) , 9 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#11( this ) 
+  )
+)
+
+Script VTriger#0#11
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.3", 2 ) 
+    GSSetVarMax( 0, "q.gz1g.q0g", 2 ) 
+    SendStringEvent( 0, "#output 1160" ) 
+  )
+)
+
+Script VTriger#0#13
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    For( VSS#i#val, Heroes ) 
+    (
+      VCheck#0#1( VSS#i#val ) 
+      VCheck#0#10( VSS#i#val ) 
+      VCheck#0#299( VSS#i#val ) 
+    )
+  )
+)
+
+Script VTriger#0#15
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "PeasRun", 2 ) 
+    VTriger#0#44( this ) 
+  )
+)
+
+Script VTriger#0#18
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+  )
+)
+
+Script VTriger#0#20
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#36( this ) 
+  )
+)
+
+Script VTriger#0#27
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#33( this ) 
+  )
+)
+
+Script VTriger#0#30
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendEvent( 0, 11224 ) 
+    VTriger#0#134( this ) 
+  )
+)
+
+Script VTriger#0#33
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    For( VSS#i#val, Peasans ) 
+    (
+      VCheck#0#6( VSS#i#val ) 
+    )
+  )
+)
+
+Script VTriger#0#36
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    For( VSS#i#val, Peasans ) 
+    (
+      VTriger#0#8( VSS#i#val ) 
+    )
+  )
+)
+
+Script VTriger#0#44
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SetCP( Human_NPC_Female-702, 76.561, 138.089, 0 ) 
+    SetCP( Human_NPC_Male-1884, 74.6838, 139.043, 0 ) 
+    SetCP( Human_NPC_Male-699, 78.5082, 139.562, 0 ) 
+    For( VSS#i#val, Peasans ) 
+    (
+      VTriger#0#30( VSS#i#val ) 
+    )
+  )
+)
+
+Script VCheck#0#52
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( this, 175, 112 ) , 35 ) 
+    Not( IsEqual( GSGetVar( 0, "q.gz1g.q0g.5" ) , 2 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#54( this ) 
+  )
+)
+
+Script VTriger#0#54
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#56( this ) 
+  )
+)
+
+Script VTriger#0#56
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    For( VSS#i#val, Heroes ) 
+    (
+    )
+  )
+)
+
+Script VCheck#0#60
+(
+  if
+  (
+    IsDead( LoneWolf ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#62( this ) 
+  )
+)
+
+Script VTriger#0#62
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 150" ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.1", 2 ) 
+  )
+)
+
+Script VCheck#0#64
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#66( this ) 
+  )
+)
+
+Script VTriger#0#66
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 190" ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.2", 1 ) 
+    VCheck#0#87( this ) 
+    VCheck#0#86( this ) 
+  )
+)
+
+Script VCheck#0#68
+(
+  if
+  (
+    IsLess( DistanceUnitUnit( this, Ogre ) , 10 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#70( this ) 
+  )
+)
+
+Script VTriger#0#70
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 160" ) 
+    VTriger#0#81( this ) 
+  )
+)
+
+Script VCheck#0#72
+(
+  if
+  (
+    IsLess( DistanceUnitUnit( this, GoblV1 ) , 30 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#73( this ) 
+  )
+)
+
+Script VTriger#0#73
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 1100" ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.4", 1 ) 
+    VCheck#0#74( this ) 
+  )
+)
+
+Script VCheck#0#74
+(
+  if
+  (
+    IsDead( GoblV1 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#75( this ) 
+  )
+)
+
+Script VTriger#0#75
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.4", 2 ) 
+  )
+)
+
+Script VCheck#0#80
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( this, 174, 108 ) , 2.5 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#84( this ) 
+  )
+)
+
+Script VTriger#0#81
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    For( VSS#i#val, Heroes ) 
+    (
+      VCheck#0#80( VSS#i#val ) 
+    )
+  )
+)
+
+Script VTriger#0#84
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.3", 2 ) 
+  )
+)
+
+Script VCheck#0#86
+(
+  if
+  (
+    IsEqual( GetDiplomacy( 1, 0 ) , 0 ) 
+    HaveItem( 0, 99 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#89( this ) 
+  )
+)
+
+Script VCheck#0#87
+(
+  if
+  (
+    IsEqual( GetDiplomacy( 1, 0 ) , -1 ) 
+    Not( HaveItem( 0, 2 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#88( this ) 
+  )
+)
+
+Script VTriger#0#88
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.2", 3 ) 
+  )
+)
+
+Script VTriger#0#89
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.2", 2 ) 
+  )
+)
+
+Script VCheck#0#94
+(
+  if
+  (
+    IsLess( DistanceUnitUnit( this, DgunDragon ) , 10 ) 
+    Every( i, Peasans, IsGreater( DistanceUnitUnit( i, this ) , 50 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#98( this ) 
+  )
+)
+
+Script VTriger#0#95
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    For( VSS#i#val, Heroes ) 
+    (
+      VCheck#0#94( VSS#i#val ) 
+    )
+  )
+)
+
+Script VTriger#0#98
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 140" ) 
+  )
+)
+
+Script VCheck#0#100
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#102( this ) 
+  )
+)
+
+Script VTriger#0#102
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 180" ) 
+  )
+)
+
+Script VTriger#0#106
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 1110" ) 
+  )
+)
+
+Script VCheck#0#107
+(
+  if
+  (
+    Any( i, Banshees, IsDead( i )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#108( this ) 
+  )
+)
+
+Script VTriger#0#108
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 1120" ) 
+  )
+)
+
+Script VCheck#0#112
+(
+  if
+  (
+    Any( i, Cows, IsLess( DistanceUnitUnit( this, i ) , 10 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#114( this ) 
+  )
+)
+
+Script VTriger#0#114
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 1140" ) 
+  )
+)
+
+Script VCheck#0#116
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( this, 44, 27 ) , 20 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#118( this ) 
+  )
+)
+
+Script VTriger#0#118
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+  )
+)
+
+Script VCheck#0#120
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#121( this ) 
+  )
+)
+
+Script VTriger#0#121
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 1150" ) 
+  )
+)
+
+Script VCheck#0#122
+(
+  if
+  (
+    GroupSize( GroupCross( UnitSee( Ogre ) , Heroes )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#124( this ) 
+  )
+)
+
+Script VCheck#0#123
+(
+  if
+  (
+    GroupSize( GroupCross( UnitSee( GoblV1 ) , Heroes )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#128( this ) 
+  )
+)
+
+Script VTriger#0#124
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 161" ) 
+  )
+)
+
+Script VTriger#0#128
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 1101" ) 
+  )
+)
+
+Script VTriger#0#131
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    Sleep( 32 ) 
+    SendStringEvent( 0, "#output 130" ) 
+    VTriger#0#95( this ) 
+  )
+)
+
+Script VTriger#0#134
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "q.gz3g.q0g.1", 2 ) 
+    GSSetVarMax( 0, "q.gz3g.q0g.2", 1 ) 
+    SendStringEvent( 0, "say R3 Hero" ) 
+    UMClear( this ) 
+    UMPlayer( this ) 
+    Run( this ) 
+    UMSentry( this, Add( 55.5, Random( 2 )  ) , Add( 95, Random( 2 )  )  ) 
+    Sleep( 90 ) 
+    UMSentry( this, Add( 124, Random( 2 )  ) , Add( 48, Random( 2 )  )  ) 
+    Sleep( 90 ) 
+    UMSentry( this, Add( 185, Random( 1 )  ) , Add( 95, Random( 1 )  )  ) 
+    VTriger#0#27( this ) 
+  )
+)
+
+Script VCheck#0#137
+(
+  if
+  (
+    Any( i, Peasans, IsEnemy( i, 0 )  ) 
+    Any( i, Peasans, IsLess( DistanceUnitUnit( i, DgunDragon ) , 12 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#164( this ) 
+  )
+)
+
+Script VCheck#0#139
+(
+  if
+  (
+    GroupSize( GroupCross( GroupSee( Heroes ) , Banshees )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#106( this ) 
+  )
+)
+
+Script VTriger#0#164
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    For( VSS#i#val, Peasans ) 
+    (
+      VTriger#0#134( VSS#i#val ) 
+    )
+  )
+)
+
+Script VCheck#0#167
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( this, 193.5, 137 ) , 25 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VCheck#0#172( this ) 
+  )
+)
+
+Script VTriger#0#169
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SendStringEvent( 0, "#output 1160" ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.5", 2 ) 
+    GSSetVarMax( 0, "q.gz1g.q0g", 2 ) 
+    GSSetVarMax( 0, "b.bz1g.s1", 1 ) 
+    GSSetVarMax( 0, "b.pig.p0", 1 ) 
+    GSSetVarMax( 0, "z.gz1g", 2 ) 
+    GSSetVarMax( 0, "z.bz1g", 2 ) 
+    LeaveToZone( 0, "bz1g", 0 ) 
+  )
+)
+
+Script VCheck#0#172
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "q.gz1g.q0g" ) , 2 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#169( this ) 
+  )
+)
+
+Script VTriger#0#175
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    LeaveToZone( 0, "bz1g", 0 ) 
+  )
+)
+
+Script VCheck#0#176
+(
+  if
+  (
+    Every( i, Peasans, IsLess( DistanceUnitPoint( i, 192, 125 ) , 5 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#180( this ) 
+  )
+)
+
+Script VTriger#0#180
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    SwitchLeverState( VGate, 0 ) 
+  )
+)
+
+Script VCheck#0#182
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "Said1" ) , 1 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#183( this ) 
+  )
+)
+
+Script VTriger#0#183
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    Sleep( 5 ) 
+    PlayMusic( 0, "Nature" ) 
+    SendStringEvent( 0, "say_block R1 Hero" ) 
+    GSSetVar( 0, "Said1", 1 ) 
+  )
+)
+
+Script VCheck#0#185
+(
+  if
+  (
+    IsLess( GSGetVar( 0, "q.gz1g.q0g" ) , 2 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VCheck#0#186( this ) 
+  )
+)
+
+Script VCheck#0#186
+(
+  if
+  (
+    IsEqual( GSGetVar( 0, "q.gz1g.q0g" ) , 2 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#188( this ) 
+  )
+)
+
+Script VTriger#0#188
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    QuestComplete( 0, "q0g" ) 
+    GSSetVarMax( 0, "b.elder.s1", 1 ) 
+    GSSetVarMax( 0, "FirstComing", 1 ) 
+    GSSetVarMax( 0, "b.pig.p0", 1 ) 
+    GSSetVarMax( 0, "b.merc1.n8_1", 1 ) 
+    GSSetVarMax( 0, "b.merc2.n8_2", 1 ) 
+    GSSetVarMax( 0, "b.merc3.n8_3", 1 ) 
+    GSSetVarMax( 0, "b.merc4.n8_4", 1 ) 
+    GSSetVarMax( 0, "b.merc5.n8_5", 1 ) 
+    GSSetVarMax( 0, "b.merc6.n8_6", 1 ) 
+    GSSetVarMax( 0, "b.merc7.n8_7", 1 ) 
+    GSSetVarMax( 0, "b.merc8.n8_8", 1 ) 
+    GSSetVarMax( 0, "b.merc9.n8_9", 1 ) 
+    GSSetVarMax( 0, "b.merc10.n8_10", 1 ) 
+    GSSetVarMax( 0, "z.gz1g", 2 ) 
+    GSSetVarMax( 0, "z.bz1g", 2 ) 
+  )
+)
+
+Script VTriger#0#190
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+  )
+)
+
+Script VCheck#0#191
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( this, 62.63, 136 ) , 3 ) 
+    IsLess( GSGetVar( 0, "CRAPT" ) , 1 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#194( this ) 
+  )
+)
+
+Script VTriger#0#192
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    For( VSS#i#val, Heroes ) 
+    (
+      VCheck#0#191( VSS#i#val ) 
+    )
+  )
+)
+
+Script VTriger#0#194
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.5", 2 ) 
+    GSSetVarMax( 0, "q.gz1g.q0g", 2 ) 
+    QuestComplete( 0, "q0g" ) 
+    GSSetVarMax( 0, "b.elder.s1", 1 ) 
+    GSSetVarMax( 0, "FirstComing", 1 ) 
+    GSSetVarMax( 0, "b.pig.p0", 1 ) 
+    GSSetVarMax( 0, "z.gz1g", 2 ) 
+    GSSetVarMax( 0, "z.bz1g", 2 ) 
+    GSSetVar( 0, "CRAPT", 1 ) 
+    LeaveToZone( 0, "bz1g", 0 ) 
+  )
+)
+
+Script VCheck#0#197
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "ZT1" ) , 1 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#199( this ) 
+  )
+)
+
+Script VTriger#0#199
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT1", 1 ) 
+    SendStringEvent( 0, "tutorial zt1" ) 
+    VCheck#0#201( this ) 
+  )
+)
+
+Script VCheck#0#201
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( GetUnitOfPlayer( 0, 0 ) , 64, 135.5 ) , 7 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#203( this ) 
+  )
+)
+
+Script VTriger#0#203
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT2", 1 ) 
+    SendStringEvent( 0, "tutorial zt2" ) 
+    VCheck#0#209( this ) 
+  )
+)
+
+Script VTriger#0#205
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    Sleep( 6 ) 
+    GSSetVarMax( 0, "b.bz2g.z0", 1 ) 
+    GSSetVarMax( 0, "z.gz1g_gz2g", 1 ) 
+    GSSetVarMax( 0, "z.gz2g_gz3g", 1 ) 
+    VTriger#0#13( this ) 
+  )
+)
+
+Script VCheck#0#209
+(
+  if
+  (
+    GroupSize( GroupCross( PlayerSee( 0 ) , Peasans )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#210( this ) 
+  )
+)
+
+Script VTriger#0#210
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "q.gz1g.q0g", 1 ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.1", 1 ) 
+    GSSetVar( 0, "ZT3", 1 ) 
+    SendStringEvent( 0, "tutorial zt3" ) 
+    VCheck#0#212( this ) 
+  )
+)
+
+Script VCheck#0#212
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( GetUnitOfPlayer( 0, 0 ) , 75, 131 ) , 3 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#214( this ) 
+  )
+)
+
+Script VTriger#0#214
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT4", 1 ) 
+    SendStringEvent( 0, "tutorial zt4" ) 
+    VCheck#0#234( this ) 
+  )
+)
+
+Script VCheck#0#216
+(
+  if
+  (
+    IsDead( LoneWolf ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#219( this ) 
+  )
+)
+
+Script VTriger#0#219
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    Sleep( 22 ) 
+    GSSetVar( 0, "ZT6", 1 ) 
+    SendStringEvent( 0, "tutorial zt6" ) 
+    VCheck#0#221( this ) 
+    VCheck#0#222( this ) 
+  )
+)
+
+Script VCheck#0#221
+(
+  if
+  (
+    WasLooted( LoneWolf ) 
+    Not( IsEqual( GSGetVar( 0, "ZT7" ) , 1 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#225( this ) 
+  )
+)
+
+Script VCheck#0#222
+(
+  if
+  (
+    Every( i, Boars, IsDead( i )  ) 
+    Not( IsEqual( GSGetVar( 0, "ZT7" ) , 1 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#225( this ) 
+  )
+)
+
+Script VTriger#0#225
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT7", 1 ) 
+    SendStringEvent( 0, "tutorial zt7" ) 
+  )
+)
+
+Script VCheck#0#228
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "ZT8" ) , 1 )  ) 
+    IsEqual( GSGetVar( 0, "ZT6" ) , 1 ) 
+    IsEqual( GSGetVar( 0, "ZT8A" ) , 1 ) 
+    Not( IsPlayerInDanger( 0 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#232( this ) 
+  )
+)
+
+Script VTriger#0#229
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "ZT8A", 1 ) 
+  )
+)
+
+Script VCheck#0#230
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( GetUnitOfPlayer( 0, 0 ) , 64, 109 ) , 3 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#229( this ) 
+  )
+)
+
+Script VTriger#0#232
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT8", 1 ) 
+    SendStringEvent( 0, "tutorial zt8" ) 
+  )
+)
+
+Script VCheck#0#234
+(
+  if
+  (
+    GroupHas( PlayerSee( 0 ) , LoneWolf ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#236( this ) 
+  )
+)
+
+Script VTriger#0#236
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT5", 1 ) 
+    SendStringEvent( 0, "tutorial zt5" ) 
+    VCheck#0#216( this ) 
+  )
+)
+
+Script VCheck#0#239
+(
+  if
+  (
+    GroupSize( GroupCross( PlayerSee( 0 ) , Boars )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#240( this ) 
+  )
+)
+
+Script VTriger#0#240
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "ZT9A", 1 ) 
+  )
+)
+
+Script VCheck#0#242
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "ZT9" ) , 1 )  ) 
+    IsEqual( GSGetVar( 0, "ZT8" ) , 1 ) 
+    IsEqual( GSGetVar( 0, "ZT9A" ) , 1 ) 
+    Not( IsPlayerInDanger( 0 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#243( this ) 
+  )
+)
+
+Script VTriger#0#243
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT9", 1 ) 
+    SendStringEvent( 0, "tutorial zt9" ) 
+  )
+)
+
+Script VCheck#0#245
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( GetUnitOfPlayer( 0, 0 ) , 49, 92 ) , 3 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#246( this ) 
+  )
+)
+
+Script VTriger#0#246
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "ZT10A", 1 ) 
+  )
+)
+
+Script VCheck#0#248
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "ZT10" ) , 1 )  ) 
+    IsEqual( GSGetVar( 0, "ZT10A" ) , 1 ) 
+    Not( IsPlayerInDanger( 0 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#249( this ) 
+  )
+)
+
+Script VTriger#0#249
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT10", 1 ) 
+    SendStringEvent( 0, "tutorial zt10" ) 
+    VCheck#0#251( this ) 
+  )
+)
+
+Script VCheck#0#251
+(
+  if
+  (
+    IsEqual( GSGetVar( 0, "ZT11A" ) , 1 ) 
+    Not( IsPlayerInDanger( 0 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#256( this ) 
+  )
+)
+
+Script VCheck#0#253
+(
+  if
+  (
+    IsGreater( DistanceUnitPoint( GetUnitOfPlayer( 0, 0 ) , 49, 92 ) , 31 ) 
+    IsEqual( GSGetVar( 0, "ZT10" ) , 1 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#254( this ) 
+  )
+)
+
+Script VTriger#0#254
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "ZT11A", 1 ) 
+  )
+)
+
+Script VTriger#0#256
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT11", 1 ) 
+    SendStringEvent( 0, "tutorial zt11" ) 
+    VCheck#0#262( this ) 
+  )
+)
+
+Script VCheck#0#258
+(
+  if
+  (
+    IsGreater( DistanceUnitPoint( GetUnitOfPlayer( 0, 0 ) , 49, 92 ) , 55 ) 
+    IsEqual( GSGetVar( 0, "ZT11" ) , 1 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#259( this ) 
+  )
+)
+
+Script VTriger#0#259
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "ZT12A", 1 ) 
+  )
+)
+
+Script VTriger#0#261
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT12", 1 ) 
+    SendStringEvent( 0, "tutorial zt12" ) 
+  )
+)
+
+Script VCheck#0#262
+(
+  if
+  (
+    IsEqual( GSGetVar( 0, "ZT12A" ) , 1 ) 
+    Not( IsPlayerInDanger( 0 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#261( this ) 
+  )
+)
+
+Script VCheck#0#265
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( GetUnitOfPlayer( 0, 0 ) , 101, 84 ) , 7 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#266( this ) 
+  )
+)
+
+Script VTriger#0#266
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "ZT23A", 1 ) 
+  )
+)
+
+Script VCheck#0#268
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "ZT23" ) , 1 )  ) 
+    IsEqual( GSGetVar( 0, "ZT23A" ) , 1 ) 
+    Not( IsPlayerInDanger( 0 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#269( this ) 
+  )
+)
+
+Script VTriger#0#269
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT23", 1 ) 
+    SendStringEvent( 0, "tutorial zt23" ) 
+  )
+)
+
+Script VCheck#0#271
+(
+  if
+  (
+    GroupHas( PlayerSee( 0 ) , Ogre1 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#272( this ) 
+  )
+)
+
+Script VTriger#0#272
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "ZT13A", 1 ) 
+  )
+)
+
+Script VCheck#0#274
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "ZT13" ) , 1 )  ) 
+    IsEqual( GSGetVar( 0, "ZT13A" ) , 1 ) 
+    Not( IsPlayerInDanger( 0 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#275( this ) 
+  )
+)
+
+Script VTriger#0#275
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT13", 1 ) 
+    SendStringEvent( 0, "tutorial zt13" ) 
+  )
+)
+
+Script VCheck#0#277
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "ZT14" ) , 1 )  ) 
+    IsEqual( GSGetVar( 0, "ZT14A" ) , 1 ) 
+    Not( IsPlayerInDanger( 0 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#281( this ) 
+  )
+)
+
+Script VCheck#0#278
+(
+  if
+  (
+    GroupHas( PlayerSee( 0 ) , Ogre2 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#279( this ) 
+  )
+)
+
+Script VTriger#0#279
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "ZT14A", 1 ) 
+  )
+)
+
+Script VTriger#0#281
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT14", 1 ) 
+    SendStringEvent( 0, "tutorial zt14" ) 
+  )
+)
+
+Script VCheck#0#283
+(
+  if
+  (
+    GroupSize( GroupCross( PlayerSee( 0 ) , Bgobl )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#285( this ) 
+  )
+)
+
+Script VCheck#0#284
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "ZT15" ) , 1 )  ) 
+    IsEqual( GSGetVar( 0, "ZT15A" ) , 1 ) 
+    Not( IsPlayerInDanger( 0 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#287( this ) 
+  )
+)
+
+Script VTriger#0#285
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "ZT15A", 1 ) 
+  )
+)
+
+Script VTriger#0#287
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT15", 1 ) 
+    SendStringEvent( 0, "tutorial zt15" ) 
+  )
+)
+
+Script VCheck#0#289
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( GetUnitOfPlayer( 0, 0 ) , 187, 104 ) , 10 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#290( this ) 
+  )
+)
+
+Script VTriger#0#290
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "ZT16A", 1 ) 
+  )
+)
+
+Script VCheck#0#292
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "ZT16" ) , 1 )  ) 
+    IsEqual( GSGetVar( 0, "ZT16A" ) , 1 ) 
+    Not( IsPlayerInDanger( 0 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#293( this ) 
+  )
+)
+
+Script VTriger#0#293
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT16", 1 ) 
+    SendStringEvent( 0, "tutorial zt16" ) 
+  )
+)
+
+Script VCheck#0#296
+(
+  if
+  (
+    IsLess( DistanceUnitUnit( GetObjectByName( "Hero" ) , DgunDragon ) , 10 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#297( this ) 
+  )
+)
+
+Script VTriger#0#297
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.1", 2 ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.2", 1 ) 
+  )
+)
+
+Script VCheck#0#299
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( GetUnitOfPlayer( 0, 0 ) , 101, 84 ) , 7 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#301( this ) 
+  )
+)
+
+Script VTriger#0#301
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.2", 2 ) 
+    GSSetVarMax( 0, "q.gz1g.q0g.3", 1 ) 
+  )
+)
+
+Script VCheck#0#303
+(
+  if
+  (
+    IsLess( DistanceUnitPoint( GetUnitOfPlayer( 0, 0 ) , 126, 38 ) , 5 ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#304( this ) 
+  )
+)
+
+Script VTriger#0#304
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVarMax( 0, "ZT24A", 1 ) 
+  )
+)
+
+Script VCheck#0#306
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "ZT24" ) , 1 )  ) 
+    Not( IsEqual( GSGetVar( 0, "ZT15" ) , 2 )  ) 
+    IsEqual( GSGetVar( 0, "ZT24A" ) , 1 ) 
+    Not( IsPlayerInDanger( 0 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#307( this ) 
+  )
+)
+
+Script VTriger#0#307
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "ZT24", 1 ) 
+    SendStringEvent( 0, "tutorial zt24" ) 
+  )
+)
+
+Script VCheck#0#309
+(
+  if
+  (
+    IsUnitBlocked( GetObjectByName( "Hero" )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#311( this ) 
+  )
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    VCheck#0#197( this ) 
+  )
+)
+
+Script VTriger#0#311
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    Sleep( 6 ) 
+    VCheck#0#309( this ) 
+  )
+)
+
+Script VTriger#0#317
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+    GSSetVar( 0, "AnimPray", 1 ) 
+    PlayAnimation( Human_NPC_Male-1884, "cspecial28" ) 
+    PlayAnimation( Human_NPC_Male-699, "cspecial28" ) 
+    PlayAnimation( Human_NPC_Female-702, "cspecial28" ) 
+  )
+)
+
+Script VCheck#0#318
+(
+  if
+  (
+    Not( IsEqual( GSGetVar( 0, "PeasRun" ) , 2 )  ) 
+  )
+  then
+  (
+    KillScript(  ) 
+    VTriger#0#317( this ) 
+  )
+)
+
+Script #OnBriefingComplete
+(
+  if
+  (
+  )
+  then
+  (
+    KillScript(  ) 
+  )
+)
+
+WorldScript
+(
+  Sleep( 2 ) 
+  Ogre = GetObjectByID( "663" ) 
+  GoblV1 = GetObjectByID( "666" ) 
+  Human_NPC_Male-699 = GetObjectByID( "699" ) 
+  Human_NPC_Female-702 = GetObjectByID( "702" ) 
+  GoblV2 = GetObjectByID( "1766" ) 
+  LoneWolf = GetObjectByID( "1804" ) 
+  DgunDragon = GetObjectByID( "1873" ) 
+  Human_NPC_Male-1884 = GetObjectByID( "1884" ) 
+  VGate = GetObjectByID( "1889" ) 
+  Ogre1 = GetObjectByID( "1898" ) 
+  Ogre2 = GetObjectByID( "1900" ) 
+  BGoblin = GetObjectByID( "1901" ) 
+  BGoblin2 = GetObjectByID( "1913" ) 
+  VillageFC = GetObjectByID( "2003" ) 
+  AddObject( Peasans, GetObject( 702 )  ) 
+  AddObject( Peasans, GetObject( 1884 )  ) 
+  AddObject( Peasans, GetObject( 699 )  ) 
+  AddObject( Bgobl, GetObject( 1901 )  ) 
+  AddObject( Bgobl, GetObject( 1913 )  ) 
+  AddObject( Boars, GetObject( 1890 )  ) 
+  VCheck#0#137( NULL ) 
+  VCheck#0#182( NULL ) 
+  VCheck#0#185( NULL ) 
+  VTriger#0#205( NULL ) 
+  VCheck#0#228( NULL ) 
+  VCheck#0#230( NULL ) 
+  VCheck#0#239( NULL ) 
+  VCheck#0#242( NULL ) 
+  VCheck#0#245( NULL ) 
+  VCheck#0#248( NULL ) 
+  VCheck#0#253( NULL ) 
+  VCheck#0#258( NULL ) 
+  VCheck#0#265( NULL ) 
+  VCheck#0#268( NULL ) 
+  VCheck#0#271( NULL ) 
+  VCheck#0#274( NULL ) 
+  VCheck#0#277( NULL ) 
+  VCheck#0#278( NULL ) 
+  VCheck#0#283( NULL ) 
+  VCheck#0#284( NULL ) 
+  VCheck#0#289( NULL ) 
+  VCheck#0#292( NULL ) 
+  VCheck#0#296( NULL ) 
+  VCheck#0#309( NULL ) 
+  VCheck#0#318( NULL ) 
+)

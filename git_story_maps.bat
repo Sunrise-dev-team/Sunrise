@@ -11,7 +11,7 @@ if exist "%CD%\tools\eirepack\Formats\mob.py" (
 	for %%i in (%CD%\maps\*.mob) do (
 		echo Make .yaml for "%%i"
         ::pushd "%%i"
-        call python "%CD%\tools\eirepack\formats\mob.py" "%%i" "%%i_git.yaml"
+        call python "%CD%\tools\eirepack\formats\mob.py" "%%i" "%%i_git.yaml" "%%i_git.eis"
         ::popd
         echo Sucess of "%%i".
         echo .

@@ -1,6 +1,9 @@
 import sys
 from binary_readers import *
 
+export_script = ""
+isSeparateScript = False
+
 def convert_node(node, buf, level=0):
     for subnode in node:
         if type(subnode) != list:
@@ -217,6 +220,7 @@ def decrypt_str(file, str_len):
     return buf_str
 
 def read_node(info, file):
+    global export_script
     m_number, node_len = read_uint(file, 2)
     node_name, node_type = magic[m_number]
 
@@ -283,7 +287,9 @@ def read_node(info, file):
             #file.read(4096)
             info.append([node_name, tuple(read_int(file, 1024))])
     elif node_type == "StringEncrypted":
-        info.append([node_name, decrypt_str(file, node_len - 12)])
+        export_script = decrypt_str(file, node_len - 12)
+        if isSeparateScript == False or node_name != "SS_TEXT":
+            info.append([node_name, export_script])
     elif node_type == "LeverStats":
         if node_len != 20:
             file.read(node_len - 8)
@@ -309,14 +315,23 @@ def read_info(file_name):
     return info
 
 if __name__ == '__main__':
-    if 2 <= len(sys.argv) <= 3:
+    if 2 <= len(sys.argv) <= 4:
+        if len(sys.argv) == 4:
+            isSeparateScript = True
+        
         info = read_info(sys.argv[1])
         
         if info != None:
+            if len(sys.argv) == 4:
+                with open(sys.argv[3], "w") as file:
+                    file.write(export_script)
+                    file.close()
+               
             if len(sys.argv) == 2:
                 print(build_yaml(info))
             else:
                 with open(sys.argv[2], "w") as file:
                     file.write(build_yaml(info))
+                    file.close()
     else:
-        print("Usage: mob.py input.mob [output.yaml]")
+        print("Usage: mob.py input.mob [output.yaml] [script.eis]")
